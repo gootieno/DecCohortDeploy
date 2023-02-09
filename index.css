@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    background-color: rgb(238, 167, 1);
+}
+
+#navigation-links-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#title {
+    margin: 0;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.nav-links-button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border-color: black;
+    color: white;
+    background-color: black;
+}
